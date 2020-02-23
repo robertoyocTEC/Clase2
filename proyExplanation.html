@@ -1,0 +1,86 @@
+
+  <!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Roberto Yoc">
+        <link rel="shortcut icon" href="https://img.icons8.com/clouds/100/000000/link.png"/>
+        <title>Alfa&Omega</title>
+        <style >
+          .style1 {
+            color: blue;
+          }
+          .style2 {
+            font-size: 20px;
+          }
+          .style3 {
+            font-family: 'Roboto'
+          }
+          .style4 {
+            font-style: italic;
+          }
+          .style5 {
+            text-decoration: underline;
+          }
+          .style6 {
+            text-shadow: 2px 2px crimson;
+          }
+          .style7 {
+            letter-spacing: 5px;
+          }
+          .style8 {
+            font-weight: 800;
+          }
+          .style9 {
+            font-variant: small-caps;
+          }
+          .style10 {
+            font-stretch: expanded;
+          }
+
+        </style>
+    </head>
+    <body>
+      <h1>Alfa & Omega Project</h1>
+
+      <h3>El problema</h3>
+      <p> El suicidio constituye un problema de salud pública muy importante pero en gran medida prevenible, que provoca casi la mitad de todas las muertes violentas y se traduce en casi un millón de víctimas al año, además de unos costos económicos cifrados en miles de millones de dólares, según ha señalado la Organización Mundial de la Salud (OMS)</p>
+      <h3>La solución</h3>
+      <p>
+        El objetivo principal es crear un a amigo luz, ya sea digital o humano, que tenga comunicación con personas que sufran trastornos emocionales. El medio será un dispositivo electrónico la información obtenida se almacenará en un base de datos, de la cual se realizaran análisis de la información, esto nos permitirá medir el estado emocional de los usuarios. El usuario podrá entablar conversación las 24 horas los 365 dias del año, siendo el primer contacto un chatbot entrenado con temas emocionales.
+      </p>
+      <h3>Cita</h3>
+      <blockquote>
+        El suicidio más acostumbrado en nuestro tiempo consiste en pegarse un balazo en el alma - Nicolás Gómez Dávila.
+      </blockquote>
+      <p> en el libro <a href="https://www.gandhi.com.mx/escolios-a-un-texto-implicito">Escolios a un Texto Implícito</a> </p>
+      <h3> Historias de Usuario</h3>
+      <p class="style1">Como usuario final deseo obtener mi informacion de la base de datos, para atenderme de forma externa.</p>
+      <p class="style2">Como usuario final necesito poder registrar mis datos de contacto de emergencia para sentirme seguro en caso de algún episodio emocional.</p>
+      <p class="style3">Como usuario final necesito contar informacion periodicamente, para prevenir momentos de panico.</p>
+      <p class="style4">Como usuario final necesito contar con un contrato de confidencialidad, para estar seguro.
+      <p class="style5">Como usuario final necesito poder comunicarme con alguien en todo momento y cualquier día, para sentirme siempre acompañado.</p>
+      <p class="style6">Como usuario final necesito, de forma diaria, recomendaciones para prevenir episodios emocionales inconvenientes.</p>
+      <p class="style7">Como amigo luz necesito agrupar la información con perfiles específicos, para atender a más de un usuario a la vez.</p>
+      <p class="style8">Como amigo luz necesito informacion audiovisual actualizada en temas emocionales, para trasmitirla a mis usuarios finales.</p>
+      <p class="style9">Como amigo luz necesito contacto directo con un especialista, para atender o canalizar una emergecia.</p>
+      <p class="style10">Como administrador necesito que el sistema requiera de mi autorizacion en las consulta de información, para garantizar la confidencialidad de los diferentes roles.</p>
+
+      <h4>Code Basic Express Server</h4>
+      <pre><code>
+        const express = require('express');
+        const app = express();
+        const port = 4200;
+
+        app.get('/', (req, res) => {
+          res.send('a file');
+        });
+
+        app.listen(port, () => {
+          console.log(`Example app listening on port {port}!`);
+        });
+      </code></pre>
+
+
+    </body>
+</html>
